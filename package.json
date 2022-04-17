@@ -1,0 +1,14 @@
+{
+  "name": "vitepress-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "vitepress": "^0.22.3"
+  },
+  "scripts": {
+    "site:dev": "vitepress dev site",
+    "site:build": "vitepress build site",
+    "site:serve": "vitepress serve site"
+  }
+}
